@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edvan Tazul Arifin</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="shadow">
+      <nav>
+        <div class="logo">
+          <img src="./assets/code-square.svg" alt="logo" />
+
+          <p>EVN Dev</p>
+        </div>
+
+        <div class="menus-container">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">App Saya</a>
+            </li>
+            <li>
+              <a href="#">Layanan</a>
+            </li>
+            <li>
+              <a href="#">Pesan</a>
+            </li>
+          </ul>
+
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero-container">
+      <div class="text-container">
+        <h1>Edvan Tazul Arifin</h1>
+        <p>
+          Halo! Saya adalah seorang Web Developer, Data Scientist, 
+          dan Data Analyst yang bersemangat mengubah ide menjadi solusi digital nyata. 
+          Dengan pengalaman membangun website modern sekaligus menganalisis data untuk menghasilkan insight yang berharga,
+           saya menghadirkan kombinasi antara teknologi, desain, dan analitik dalam setiap proyek.<br>
+           Portofolio ini menjadi tempat saya menampilkan projek web development.
+        </p>
+      </div>
+      <div class="animation-container">
+        <div class="animation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <img src="./assets/icon.avif" alt="icon" />
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="project-container">
+      <h1>Projects</h1>
+      <div class="project-wrapper">
+        <div class="project-card shadow">
+          <img src="./assets/img1.jpg" alt="project1" />
+          <div class="card-text-wrapper">
+            <p class="card-title">Project 1</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos a laborum recusandae earum dolores quod modi nisi!
+              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
+              deleniti ea. Enim.
+            </p>
+            <button>Link</button>
+          </div>
+        </div>
+
+        <div class="project-card shadow">
+          <img src="./assets/img2.webp" alt="project2" />
+          <div class="card-text-wrapper">
+            <p class="card-title">Project 1</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos a laborum recusandae earum dolores quod modi nisi!
+              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
+              deleniti ea. Enim.
+            </p>
+            <button>Link</button>
+          </div>
+        </div>
+
+        <div class="project-card shadow">
+          <img src="./assets/img3.webp" alt="project3" />
+          <div class="card-text-wrapper">
+            <p class="card-title">Project 1</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Dignissimos a laborum recusandae earum dolores quod modi nisi!
+              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
+              deleniti ea. Enim.
+            </p>
+            <button>Link</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-container">
+      <h1>Melayani</h1>
+      <div class="services-wrapper">
+        <div class="service-card shadow">
+          <img src="./assets/front-end.png" alt="front-end icon" width="150" />
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+            <li>React js</li>
+            <li>Context API</li>
+            <li>Redux</li>
+          </ul>
+
+          <p>Frontend</p>
+        </div>
+
+        <div class="service-card shadow">
+          <img
+            src="./assets/cloud-server.png"
+            alt="front-end icon"
+            width="150"
+          />
+
+          <ul>
+            <li>CPanel</li>
+            <li>aaPanel</li>
+            <li>Socket.io</li>
+            <li>Nginx</li>
+            <li>Apache</li>
+          </ul>
+
+          <p>Cloud Server</p>
+        </div>
+
+        <div class="service-card shadow">
+          <img src="./assets/backend.png" alt="front-end icon" width="150" />
+
+          <ul>
+            <li>Node Js</li>
+            <li>Express JS</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>Auth</li>
+            <li>RESTful API</li>
+            <li>Debuging</li>
+          </ul>
+
+          <p>Backend</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact" class="contact-container">
+      <h1>Hubungi Saya</h1>
+      <form class="contact-wrapper">
+        <div class="form-wrapper">
+          <label for="nameInput">Nama</label>
+          <input type="text" id="nameInput" placeholder="Nama Lengkap" />
+        </div>
+
+        <div class="form-wrapper">
+          <label for="phone">No Whatsapp</label>
+          <input type="text" id="phone" placeholder="No Whatsapp" />
+        </div>
+
+        <div class="form-wrapper">
+          <label for="pesan">Pesan</label>
+          <textarea
+            name="pesan"
+            id="pesan"
+            rows="7"
+            placeholder="Pesan"
+          ></textarea>
+        </div>
+
+        <button>Kirim</button>
+      </form>
+    </section>
+
+    <footer>&#169; EVN Dev</footer>
+  </body>
+</html>
