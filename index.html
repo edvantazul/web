@@ -19,25 +19,16 @@
     <header class="shadow">
       <nav>
         <div class="logo">
-          <img src="./assets/code-square.svg" alt="logo" />
-
+          <img src="code-square.svg" alt="logo" />
           <p>EVN Dev</p>
         </div>
 
         <div class="menus-container">
           <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">App Saya</a>
-            </li>
-            <li>
-              <a href="#">Layanan</a>
-            </li>
-            <li>
-              <a href="#">Pesan</a>
-            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">App Saya</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Pesan</a></li>
           </ul>
 
           <div class="container" onclick="myFunction(this)">
@@ -57,17 +48,19 @@
           Halo! Saya adalah seorang Web Developer, Data Scientist, 
           dan Data Analyst yang bersemangat mengubah ide menjadi solusi digital nyata. 
           Dengan pengalaman membangun website modern sekaligus menganalisis data untuk menghasilkan insight yang berharga,
-           saya menghadirkan kombinasi antara teknologi, desain, dan analitik dalam setiap proyek.<br>
-           Portofolio ini menjadi tempat saya menampilkan projek web development.
+          saya menghadirkan kombinasi antara teknologi, desain, dan analitik dalam setiap proyek.<br>
+          Portofolio ini menjadi tempat saya menampilkan projek web development.
         </p>
       </div>
+
       <div class="animation-container">
         <div class="animation">
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <img src="./assets/icon.avif" alt="icon" />
+        <!-- Foto sudah diperbaiki -->
+        <img src="icon.avif" alt="icon" class="profil-img" />
       </div>
     </section>
 
@@ -76,42 +69,33 @@
       <h1>Projects</h1>
       <div class="project-wrapper">
         <div class="project-card shadow">
-          <img src="./assets/img1.jpg" alt="project1" />
+          <img src="img1.jpg" alt="project1" />
           <div class="card-text-wrapper">
             <p class="card-title">Project 1</p>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos a laborum recusandae earum dolores quod modi nisi!
-              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
-              deleniti ea. Enim.
             </p>
             <button>Link</button>
           </div>
         </div>
 
         <div class="project-card shadow">
-          <img src="./assets/img2.webp" alt="project2" />
+          <img src="img2.webp" alt="project2" />
           <div class="card-text-wrapper">
-            <p class="card-title">Project 1</p>
+            <p class="card-title">Project 2</p>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos a laborum recusandae earum dolores quod modi nisi!
-              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
-              deleniti ea. Enim.
             </p>
             <button>Link</button>
           </div>
         </div>
 
         <div class="project-card shadow">
-          <img src="./assets/img3.webp" alt="project3" />
+          <img src="img3.webp" alt="project3" />
           <div class="card-text-wrapper">
-            <p class="card-title">Project 1</p>
+            <p class="card-title">Project 3</p>
             <p class="card-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Dignissimos a laborum recusandae earum dolores quod modi nisi!
-              Libero iure deserunt, vero quas est ipsa! Perferendis sed quisquam
-              deleniti ea. Enim.
             </p>
             <button>Link</button>
           </div>
@@ -124,52 +108,29 @@
       <h1>Melayani</h1>
       <div class="services-wrapper">
         <div class="service-card shadow">
-          <img src="./assets/front-end.png" alt="front-end icon" width="150" />
-
+          <img src="front-end.png" alt="front-end icon" width="150" />
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Tailwind</li>
-            <li>React js</li>
-            <li>Context API</li>
-            <li>Redux</li>
+            <li>HTML</li><li>CSS</li><li>Bootstrap</li>
+            <li>Tailwind</li><li>React js</li><li>Context API</li><li>Redux</li>
           </ul>
-
           <p>Frontend</p>
         </div>
 
         <div class="service-card shadow">
-          <img
-            src="./assets/cloud-server.png"
-            alt="front-end icon"
-            width="150"
-          />
-
+          <img src="cloud-server.png" alt="cloud server icon" width="150" />
           <ul>
-            <li>CPanel</li>
-            <li>aaPanel</li>
-            <li>Socket.io</li>
-            <li>Nginx</li>
-            <li>Apache</li>
+            <li>CPanel</li><li>aaPanel</li><li>Socket.io</li>
+            <li>Nginx</li><li>Apache</li>
           </ul>
-
           <p>Cloud Server</p>
         </div>
 
         <div class="service-card shadow">
-          <img src="./assets/backend.png" alt="front-end icon" width="150" />
-
+          <img src="backend.png" alt="backend icon" width="150" />
           <ul>
-            <li>Node Js</li>
-            <li>Express JS</li>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
-            <li>Auth</li>
-            <li>RESTful API</li>
-            <li>Debuging</li>
+            <li>Node Js</li><li>Express JS</li><li>PostgreSQL</li>
+            <li>MongoDB</li><li>Auth</li><li>RESTful API</li><li>Debuging</li>
           </ul>
-
           <p>Backend</p>
         </div>
       </div>
@@ -191,12 +152,7 @@
 
         <div class="form-wrapper">
           <label for="pesan">Pesan</label>
-          <textarea
-            name="pesan"
-            id="pesan"
-            rows="7"
-            placeholder="Pesan"
-          ></textarea>
+          <textarea id="pesan" rows="7" placeholder="Pesan"></textarea>
         </div>
 
         <button>Kirim</button>
